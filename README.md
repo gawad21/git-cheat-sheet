@@ -36,3 +36,18 @@
 - **`git config`**: Configure Git settings, such as user name, email, and aliases.
 - **`git tag`**: Create, list, or delete tags in the repository.
 
+
+### Creating .gitignore File
+
+- **Creating a .gitignore file**: Create a `.gitignore` file to specify intentionally untracked files that Git should ignore. Here's how to create one:
+  1. Create a new file named `.gitignore` in the root directory of your repository.
+  2. Add patterns for files or directories you want Git to ignore. Each pattern should be on a new line.
+     Example:
+     ```
+     # Ignore files with .log extension
+     *.log
+     
+     # Ignore directory named "temp"
+     temp/
+     ```
+  3. Save the `.gitignore` file.
